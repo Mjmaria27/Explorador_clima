@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Explorador de Clima</h1>
+
+        <p>Busca una ciudad y descubre su clima actual.</p>
+
+        <section class="search-section">
+            <input 
+                type="text" 
+                id="inputCiudad" 
+                placeholder="Escribe una ciudad..."
+            >
+
+            <button id="btnBuscar">Buscar</button>
+        </section>
+
+        <p id="mensaje"></p>
+
+        <section id="resultado" class="resultado">
+            <h2>Quito</h2>
+            <p>18°C</p>
+            <p>Parcialmente nublado</p>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
